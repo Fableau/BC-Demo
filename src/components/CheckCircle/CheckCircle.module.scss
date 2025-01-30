@@ -1,0 +1,30 @@
+.check-circle {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.check-circle-selected {
+    background-color: colors.$ice-blue-two;
+}
+
+.check-circle-unselected {
+    position: relative;
+    right: -1px; // border offset
+    border: solid 1px colors.$ice-blue-two;
+}
+
+.check-circle-icon-selected {
+    height: 1rem;
+    color: colors.$dodger-blue;
+}
+
+.check-circle-icon-unselected {
+    width: 0.688rem;
+    color: colors.$dodger-blue;
+    opacity: 0.06;
+}

@@ -1,0 +1,26 @@
+.form-page-padding {
+    width: 69.375rem;
+    height: 53.5rem;
+    padding: 3.813rem 2.875rem 4.063rem;
+}
+
+.form-step-three-summary {
+    position: absolute;
+    top: 26.75rem;
+    left: 15.5rem;
+    z-index: 1;
+}
+
+.form-step-three-image {
+    position: absolute;
+    left: -3.05rem;
+    bottom: .1rem;
+    transform: scale(.949);
+    user-select: none;
+}
+
+.form-step-three-gradient {
+    position: absolute;
+    bottom: 0rem;
+    left: 6rem;
+}

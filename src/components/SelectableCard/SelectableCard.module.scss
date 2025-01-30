@@ -1,0 +1,41 @@
+.selectable-card {
+    width: calc(16rem - (1rem / 16));
+    height: 22.688rem;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(255,255,255);
+    cursor: pointer;
+    transition: box-shadow .06s;
+    overflow: hidden;
+}
+
+.selectable-card-selected {
+    box-shadow: 0 8px 16px 0 rgba(13, 38, 53, 0.19);
+}
+
+.selectable-card-image {
+    width: 16rem;
+    height: 22.688rem;
+    position: absolute;
+    object-fit: cover;
+    user-select: none;
+    z-index: 0;
+}
+
+.selectable-card-gradient-position {
+    position: absolute;
+    bottom: 0;
+}
+
+.selectable-card-selection-container {
+    position: relative;
+    height: 2.75rem;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin: 0 1rem 1.5rem 1.5rem;
+    z-index: 1;
+}

@@ -1,0 +1,36 @@
+.form-summary-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-summary-row {
+    display: flex;
+    align-items: center;
+}
+
+.form-summary-check-container {
+    width: 1.625rem;
+    height: 1.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+}
+
+.form-summary-check {
+    height: 1rem;
+    width: 1.063rem;
+    color: colors.$dodger-blue;
+}
+
+.form-summary-text {
+    align-self: flex-start;
+}
+
+.form-summary-price-container {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    margin-top: 2rem;
+}

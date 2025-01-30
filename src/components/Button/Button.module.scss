@@ -1,0 +1,11 @@
+.button-shared {
+    width: 7.625rem;
+    height: 2.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: solid 1px colors.$dodger-blue;
+    background-color: rgb(255,255,255);
+}

@@ -1,0 +1,22 @@
+.button {
+    width: 14.313rem;
+    height: 2.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    background-color: colors.$dodger-blue;
+}
+
+.button-icon-container {
+    position: relative;
+    top: -1px;
+    padding: 0.125rem 0.063rem 0 0.125rem;
+}
+
+.button-arrow {
+    width: 0.813rem;
+    height: 0.875rem;
+    color: #0074e8;
+}

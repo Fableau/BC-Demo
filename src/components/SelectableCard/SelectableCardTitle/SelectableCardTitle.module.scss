@@ -1,0 +1,13 @@
+.selectable-card-title {
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-self: flex-start;
+
+    // ADJUSTMENT
+    padding-left: 1px; 
+}
+
+.selectable-card-title-unselected {
+    opacity: 0.32;
+}

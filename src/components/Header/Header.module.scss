@@ -1,0 +1,31 @@
+.header {
+    height: 9.5rem;
+    width: 90rem;
+}
+
+.header-background {
+    height: calc(9.5rem - 1.5rem);
+    width: max(100vw, 1200px);
+    position: absolute;
+    inset: 0;
+    background-color: colors.$white;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.header-content {
+    width: 100%;
+    padding: 3rem 10.313rem 0;
+    display: flex;
+    justify-self: center;
+    justify-content: space-between;
+}
+
+.header-motorhuis {
+    margin-left: .125rem;
+}
+
+.header-blue-current {
+    position: relative;
+    top: -1px; // rem rounding error?
+}

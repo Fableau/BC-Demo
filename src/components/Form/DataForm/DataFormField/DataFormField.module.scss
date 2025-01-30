@@ -1,0 +1,17 @@
+.data-form-field {
+    margin-bottom: 2rem;
+}
+
+.data-form-field-legend {
+    margin-bottom: 1rem;
+    font-family: MuseoSans;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #003e5b;
+}
+
+.data-form-field-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

@@ -1,0 +1,44 @@
+.data-form {
+    width: 31.25rem;
+    height: 45.625rem;
+    padding: 3.063rem 4rem 1.563rem 2.375rem;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(13, 38, 53, 0.19);
+    background-color: rgb(255,255,255);
+}
+
+.data-form-horizontal-box {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.data-form-actions {
+    display: flex;
+    gap: 2.063rem;
+}
+
+.data-form-payment-comment {
+    margin-top: .125rem;
+    font-family: MuseoSans;
+    font-size: 0.75rem;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #6b8996;
+}
+
+.data-form-offerte {
+    align-self: center;
+    font-family: MuseoSans;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.5;
+    color: colors.$grey-blue;
+    text-decoration: underline;
+
+    // ADJUSTMENT
+    position: relative;
+    top: 1px;
+}

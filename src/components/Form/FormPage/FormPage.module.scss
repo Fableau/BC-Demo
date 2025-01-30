@@ -1,0 +1,38 @@
+.form-page {
+  width: 69.375rem;
+  position: relative;
+  margin: 1.25rem 0 9.563rem;
+  border-radius: 10px;
+  background-color: colors.$ice-blue;
+}
+
+.form-page-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1.813rem;
+}
+
+.form-progress-bar-container {
+  position: absolute;
+  top: -.5rem;
+  left: 2.5rem;
+}
+
+.form-text-container {
+  position: absolute;
+  top: 7.25rem;
+  left: 2.5rem;
+}
+
+.previous-button-container {
+  position: absolute;
+  bottom: -1.25rem;
+  left: 2.5rem;
+}
+
+.next-button-container {
+  position: absolute;
+  bottom: -1.25rem;
+  left: 49.125rem;
+}

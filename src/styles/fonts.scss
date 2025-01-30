@@ -1,0 +1,116 @@
+// Comments geven naam op de Styleguide weer
+
+// @use '@/styles/colors.scss';
+
+@font-face {
+    font-family: MuseoSans;
+    src: local(MuseoSans-300),
+      url('../../public/fonts/MuseoSans-300.ttf') format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+  }
+  
+@font-face {
+  font-family: MuseoSans;
+  src: local(MuseoSans-700),
+    url('../../public/fonts/MuseoSans-700.ttf') format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+// Text Style 4
+.font-header-large-sapphire {
+  font-family: MuseoSans;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: normal;
+  color: colors.$sapphire;
+}
+
+.font-header-large-dodger {
+  font-family: MuseoSans;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: normal;
+  color: colors.$dodger-blue;
+}
+
+// Text Style 2
+.font-header-white {
+  font-family: MuseoSans;
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 1.56;
+  color: white;
+}
+
+// Text Style - ongebruikt
+.font-header-dodger {
+  font-family: MuseoSans;
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 1.56;
+  color: colors.$dodger-blue;
+}
+
+// Keuzekop
+.font-header-sapphire {
+  font-family: MuseoSans;
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: normal;
+  color: colors.$sapphire;
+}
+
+.font-header-dodger-two {
+  font-family: MuseoSans;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: normal;
+  color: colors.$dodger-blue-two;
+}
+
+// Text
+.font-text {
+  font-family: MuseoSans;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: colors.$grey-blue;
+}
+
+// Input
+.font-input-text {
+  font-family: MuseoSans;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 2;
+  color: colors.$grey-blue;
+}
+
+.font-summary-text {
+  font-family: MuseoSans;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: colors.$grey-blue-two;
+}
+
+.font-summary-text-blue {
+  font-family: MuseoSans;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: normal;
+  color: colors.$dodger-blue;
+}
+
+.font-indicator-text {
+  font-family: MuseoSans;
+  font-size: 0.813rem;
+  font-weight: bold;
+  line-height: normal;
+  text-align: center;
+  color: white;
+}

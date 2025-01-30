@@ -1,0 +1,11 @@
+.form-subtotal {
+    height: 1.125rem;
+    font-family: MuseoSans;
+    font-size: 0.938rem;
+    font-weight: 300;
+    color: colors.$dodger-blue;
+
+    // ADJUSTMENT
+    position: relative;
+    top: -1px;
+}
