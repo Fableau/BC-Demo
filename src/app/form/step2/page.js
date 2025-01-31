@@ -19,7 +19,7 @@ const FormStepTwo = () => {
               bottomText={'Tekst'}
               prevPageHref={'/form/step1'}
               nextPageHref={'/form/step3'}
-              currentStep={1}
+              currentStep={2}
               maxStep={7} 
               paddingStyle={styles['form-page-padding']}>
 
