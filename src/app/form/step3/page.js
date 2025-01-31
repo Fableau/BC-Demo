@@ -24,7 +24,7 @@ const FormStepThree = () => {
               middleText={'Gefeliciteerd!'}
               bottomText={'Je hebt een pracht oplaadpunt samengesteld! Vul jouw gegevens in en wij nemen graag jouw setting door. Tot snel!'}
               prevPageHref={'/form/step2'}
-              currentStep={3}
+              currentStep={1}
               maxStep={7} 
               paddingStyle={styles['form-page-padding']}>
       
